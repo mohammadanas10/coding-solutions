@@ -71,7 +71,7 @@ This makes for a total of $15 + 4 = 19$ sticks, and at $9$ sticks per plate he w
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-28T12:05:55.365Z  
+**Submitted:** 2026-09-29T13:33:14.621Z  
 
 ```java
 import java.util.*;
