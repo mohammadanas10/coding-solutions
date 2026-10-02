@@ -1,1 +1,3 @@
-select distinct company_name from works;
+select count(*) as fiction_count
+from books 
+where genre='Fiction';
