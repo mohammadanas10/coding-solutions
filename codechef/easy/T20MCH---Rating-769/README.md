@@ -59,7 +59,7 @@ Similar to the previous explanation, the maximum total score that Team B can ach
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-02T11:27:30.299Z  
+**Submitted:** 2026-10-05T11:42:00.860Z  
 
 ```java
 import java.util.*;
