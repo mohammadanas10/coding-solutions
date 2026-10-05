@@ -1,1 +1,1 @@
-select movie_name from Cinema where Rating>7 AND Rating<9;
+select book_id,title,author,published_year From Library where rating is NULL;
