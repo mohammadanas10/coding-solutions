@@ -1,1 +1,1 @@
-Select department,Count(*) as total_employees  from employees group by department;
+Select employee_name,company,salary from Employees where category='Full-Time' order by salary desc
