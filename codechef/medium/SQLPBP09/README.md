@@ -4,10 +4,10 @@
 
 ## Problem
 
-### Salary of Employees
+### Department of Each Employee
 ### Task
 
-Create a query to retrieve the employee_name, company, and salary for employees in the full-time category, ordered by salary in  **descending**  order
+Write a query to group the employees by their department and display the total number of employees (as total_employees) in each department.
 
  **Table name** : `Employees`
 
@@ -20,22 +20,22 @@ employee_id	employee_name	company	category	department	salary
 6	Emma Blue	FinServ	Part-Time	Finance	32000
 7	Frank Black	HealthPlus	Full-Time	HR	60000
 8	Grace Grey	TechCorp	Full-Time	Marketing	70000
-9	Henry Red	FinServ	Contract	IT	95000
+9	Henry Red	FinServ	Contract	Sales	95000
 10	Ivy Yellow	HealthPlus	Part-Time	Marketing	28000
-### Expected column
-- employee_name
-- company
-- salary
+### Expected Column
+- department
+- total_employees
 
 ## Solution
 
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-05T11:48:47.548Z  
+**Submitted:** 2026-10-07T12:24:39.072Z  
 
 ```sql
-Select employee_name,company,salary from Employees where category='Full-Time' order by salary desc
+Select department,Count(*) as total_employees  from employees group by department;
+
 ```
 
 ---
