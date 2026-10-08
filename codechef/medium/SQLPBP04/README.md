@@ -44,7 +44,7 @@ match_id	player1	player2	winner	match_date
 **Language:** SQL  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-07T12:27:28.852Z  
+**Submitted:** 2026-10-08T11:58:22.831Z  
 
 ```sql
 Select distinct player_name,score from players join matches on player_name=winner order by score desc limit 3;
