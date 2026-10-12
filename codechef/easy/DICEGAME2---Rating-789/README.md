@@ -53,7 +53,7 @@ Tie
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-11T13:13:54.336Z  
+**Submitted:** 2026-10-12T13:31:32.877Z  
 
 ```java
 import java.util.*;
